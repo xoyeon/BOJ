@@ -50,9 +50,10 @@ print(int((A*B)%C))
 print(int(((A%C) * (B%C))%C))
 
 # 11	2588	 곱셈	성공
-i = int(input())
-j = input()
-print(i * int(j[2]))
-print(i * int(j[1]))
-print(i * int(j[0]))
-print(i * int(j))
+a = int(input())
+b = input()
+
+print(a * int(b[2]))
+print(a * int(b[1]))
+print(a * int(b[0]))
+print(a * int(b))
