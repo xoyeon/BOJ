@@ -1,7 +1,9 @@
 # BOJ 단계별로 풀어보기
+[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=mudosaa)](https://solved.ac/mudosaa)
+
 |단계|제목|설명|완료|
 |:--:|----|---|:--:|
-|1|[입출력과 사칙연산](https://www.acmicpc.net/step/1)|입력, 출력과 사칙연산을 연습해 봅시다. Hello World!|
+|1|[입출력과 사칙연산](https://www.acmicpc.net/step/1)|입력, 출력과 사칙연산을 연습해 봅시다. Hello World!|✅
 |2|[if문](https://www.acmicpc.net/step/4)|if문을 사용해 봅시다.|
 |3|for문|	for문을 사용해 봅시다.|
 |4|while문|	while문을 사용해 봅시다.|
