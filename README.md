@@ -6,8 +6,8 @@
 |1|[입출력과 사칙연산](https://www.acmicpc.net/step/1)|입력, 출력과 사칙연산을 연습해 봅시다. Hello World!|✅
 |2|[if문](https://www.acmicpc.net/step/4)|if문을 사용해 봅시다.|✅
 |3|[for문](https://www.acmicpc.net/step/3)|for문을 사용해 봅시다.|✅
-|4|[while문](https://www.acmicpc.net/step/2)|while문을 사용해 봅시다.|
-|5|1차원 배열|	배열을 사용해 봅시다.|
+|4|[while문](https://www.acmicpc.net/step/2)|while문을 사용해 봅시다.|✅
+|5|[1차원 배열](https://www.acmicpc.net/step/6)|	배열을 사용해 봅시다.|
 |6|함수|	함수를 정의하면 코드가 깔끔해지고 관리하기 쉬워집니다.|
 |7|문자열|	문자열을 다루는 문제들을 해결해 봅시다.|
 |8|기본 수학 1	|수학 문제로 수학적 사고력을 길러 봅시다.|
