@@ -5,8 +5,31 @@ num = list(map(int, input().split()))
 print(min(num), max(num))
 
 # 2	2562	 최댓값
+num_list=[]
+for i in range(9):
+    num_list.append(int(input()))
+    
+print(max(num_list))
+print(num_list.index(max(num_list))+1)
+
 # 3	2577	 숫자의 개수
+a = int(input())
+b = int(input())
+c = int(input())
+
+num = list(str(a*b*c))
+
+for i in range(10):
+    print(num.count(str(i)))
+    
 # 4	3052	 나머지
+num=[]
+for i in range(10):
+    n = int(input())
+    num.append(n%42)
+num = set(num)
+print(len(num))
+
 # 5	1546	 평균	
 # 6	8958	 OX퀴즈
 # 7	4344	 평균은 넘겠지
