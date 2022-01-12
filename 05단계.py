@@ -30,6 +30,15 @@ for i in range(10):
 num = set(num)
 print(len(num))
 
-# 5	1546	 평균	
+# 5	1546	 평균
+n = int(input())
+test = list(map(int, input().split()))
+best = max(test)
+
+new = []
+for score in test:
+    new.append(score/best*100)
+print(sum(new)/n)
+
 # 6	8958	 OX퀴즈
 # 7	4344	 평균은 넘겠지
