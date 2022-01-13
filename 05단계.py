@@ -41,4 +41,32 @@ for score in test:
 print(sum(new)/n)
 
 # 6	8958	 OX퀴즈
+n = int(input())
+
+for i in range(n):
+    ox = list(map(str, input()))
+    
+    correct = 0
+    score = 0
+
+    for i in ox:
+        if i == 'O':
+            correct+=1
+            score = correct+score
+        else:
+            correct = 0
+    print(score)
+    
 # 7	4344	 평균은 넘겠지
+c = int(input())
+for i in range(c):
+    score = list(map(int, input().split()))
+    avg = sum(score[1:])/score[0]
+    
+    cnt = 0
+    for j in score[1:]:
+        if j > avg:
+            cnt+=1
+    rate = cnt/score[0]*100
+    
+    print(f'{rate:.3f}%')
