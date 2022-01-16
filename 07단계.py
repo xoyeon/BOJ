@@ -9,7 +9,12 @@ num = map(int, input())
 print(sum(num))
 
 # 3	10809	 알파벳 찾기
+s = str(input())
+abc = 'abcdefghijklmnopqrstuvwxyz'
 
+for i in abc:
+    print(s.find(i))
+    
 # 4	2675	 문자열 반복
 
 # 5	1157	 단어 공부
