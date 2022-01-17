@@ -41,6 +41,8 @@ else:
     print(word_list[num.index(max(num))])
 
 # 6	1152	 단어의 개수
+words = input().split()
+print(len(words))
 
 # 7	2908	 상수
 
