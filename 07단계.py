@@ -16,8 +16,29 @@ for i in abc:
     print(s.find(i))
     
 # 4	2675	 문자열 반복
+t = int(input())
 
+for i in range(t):
+    r, s = input().split()
+
+    for i in range (len(s)):
+        print(int(r)*str(s)[i], end='')
+
+    print()
+    
 # 5	1157	 단어 공부
+word = input().upper()
+word_list = list(set(word))
+
+num = []
+for i in word_list:
+    cnt = word.count(i)
+    num.append(cnt)
+    
+if num.count(max(num)) > 1 :
+    print('?')
+else:
+    print(word_list[num.index(max(num))])
 
 # 6	1152	 단어의 개수
 
