@@ -19,5 +19,7 @@ else:
 # 7	2839	 설탕 배달
 
 # 8	10757	 큰 수 A+B
+a, b = map(int, input().split())
+print(a+b)
 
 # 9	1011	 Fly me to the Alpha Centauri
