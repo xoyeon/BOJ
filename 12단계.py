@@ -17,4 +17,17 @@ for i in range(len(num)):
 # 7	11651	 좌표 정렬하기 2
 # 8	1181	 단어 정렬
 # 9	10814	 나이순 정렬
+n = int(input())
+
+mem =[]
+for i in range(n):
+  age, name = map(str, input().split())
+  age = int(age)
+  mem.append((age, name))
+
+mem.sort(key = lambda a: a[0])
+
+for i in mem:
+  print(i[0], i[1])
+
 # 10	18870	 좌표 압축
