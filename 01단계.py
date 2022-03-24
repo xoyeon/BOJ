@@ -42,14 +42,21 @@ print(a*b)
 print(int(a/b))
 print(a%b)
 
-# 10	10430	 나머지
+# 10 10926	 ??!
+print(input()+"??!")
+
+# 11 	18108	 1998년생인 내가 태국에서는 2541년생?!
+y = int(input())
+print(y-543)
+
+# 12	10430	 나머지
 A, B, C = map(int, input().split())
 print(int((A+B)%C))
 print(int(((A%C) + (B%C))%C))
 print(int((A*B)%C))
 print(int(((A%C) * (B%C))%C))
 
-# 11	2588	 곱셈	성공
+# 13	2588	 곱셈	성공
 a = int(input())
 b = input()
 
