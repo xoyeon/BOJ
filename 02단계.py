@@ -52,3 +52,33 @@ elif m<45 and h>0:
     print(h-1, m+15)
 else:
     print(23, m+15)
+    
+# 6	2525	 오븐 시계
+a, b = map(int, input().split())
+c = int(input())
+
+a+= c // 60
+b+= c % 60
+
+if b >= 60:
+    a+=1
+    b-=60
+
+if a >= 24:
+    a-=24
+
+print(a, b)
+
+# 7	2480	 주사위 세개
+a, b, c = map(int, input().split())
+
+if a == b == c:
+    print(10000+a*1000)
+elif a == b:
+    print(1000+a*100)
+elif a == c:
+    print(1000+a*100)
+elif b == c:
+    print(1000+b*100)
+else:
+    print(100 * max(a,b,c))
